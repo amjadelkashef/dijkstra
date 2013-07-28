@@ -78,10 +78,4 @@ public class GraphBuilderTest {
 		matrix.add(line4);
 		return matrix;
 	}
-
-	@Test
-	public void test()
-	{
-		System.out.println(((URLClassLoader) Thread.currentThread().getContextClassLoader()).getURLs()[0]);
-	}
 }
